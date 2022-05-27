@@ -1,3 +1,4 @@
+import sys
 from TikTokApi import TikTokApi
 
 args = sys.argv

@@ -14,4 +14,4 @@ video_url = args[1]
 with TikTokApi() as api:
     data = api.get_video_no_watermark(video_url, return_bytes=1, language='en', proxy=None, custom_verifyFp='')
     with open('videos.mp4', 'wb') as output:
-		output.write(data)
+        output.write(data)
